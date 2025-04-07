@@ -46,7 +46,7 @@ body {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .search input {
@@ -63,6 +63,10 @@ body {
 }
 
 .search button {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 0;
   outline: 0;
   background: #ebfffc;
